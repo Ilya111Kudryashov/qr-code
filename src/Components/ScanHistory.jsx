@@ -7,9 +7,9 @@ const ScanHistory = () => {
     <>
     vrvr
     {data.map((text)=>(
-      <p key={text}>{text+"\n"+
+      <p key={text}>{text}
       <QRCodeSVG value={text} size="100" />
-      }</p>
+      </p>
 
     ))}
     </>
